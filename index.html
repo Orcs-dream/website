@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="/data/bootstrap.css">
+  <script src="/data/bootstrap.js"></script>
+</head>
+
+<body>
+  <!--Navigation Bar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img class="logo" src="data/white_logo.png" width="120px">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="item.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="reviews.html">Reviews</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--End of navigation bar-->
+  <!--Carousel Slide-->
+  <div id="carouselExample" class="carousel slide c">
+    <div class="carousel-inner">
+      <div class="carousel-item active c-item">
+        <a href="#sale"><img src="data/sale.jpg" class="d-block w-100 c-img" alt="..."></a>
+        <div class="carousel-caption d-md-block">
+          <h5 class="carsouel-text">Exclusive Sales</h5>
+          <p class="carsouel-text">Best prices you'll get anywhere!</p>
+        </div>
+      </div>
+      <div class="carousel-item c-item">
+        <img src="data/5stars.jpeg" class="d-block w-100 c-img" alt="...">
+      </div>
+      <div class="carousel-item c-item">
+        <a href=""><img src="data/5stars.jpeg " class="d-block w-100 c-img" alt="..."></a>
+        <div class="carousel-caption d-md-block">
+          <h5 class="carsouel-text">Top Rated Site</h5>
+          <p class="carsouel-text">The best experience you'll get anywhere</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--End of Slide--> <br><br><br>
+  <!--First set of cards-->
+  <div class="container">
+    <div class="row gy-3">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="data/free_shiping.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Free shipping</h5>
+            <p class="card-text">to all Arab countries</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="data/stars.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title" style="padding-top: 28px;">Unique Items</h5>
+            <p class="card-text">our items can only be found here</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="data/tech_support.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Tech Support</h5>
+            <p class="card-text">24/7 online tech support</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End of first set of cards-->
+
+  <!--First set of cards-->
+  <div class="container cardset" id="sale">
+    <h1 class="title" style="margin-bottom: 40px;">On Sale</h1>
+    <div class="row gy-3">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="free_shiping.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Free shipping</h5>
+            <p class="card-text">to all Arab countries</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="stars.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title" style="padding-top: 28px;">Unique Items</h5>
+            <p class="card-text">our items can only be found here</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="tech_support.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Tech Support</h5>
+            <p class="card-text">24/7 online tech support</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End of first set of cards-->
+</body>
+</html>
