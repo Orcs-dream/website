@@ -79,3 +79,36 @@ h1.title {
 }
 
 /*End of testimonials code*/
+
+/*Footer Styling*/
+footer {
+  margin-bottom: 20px;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  background-color: transparent;
+}
+
+footer > p {
+  display: inline;
+  text-align: left;
+  margin-left: 8%;
+  color: grey;
+}
+
+footer > hr {
+  margin: auto 5% 1%;
+}
+
+footer > div {
+  display: flex;
+  height: 30px;
+  justify-content: flex-end;
+}
+
+footer > div > img {
+  width: 30px;
+  margin-right: 12px;
+  transform: translateY(-100%);
+}
+/*Footer Styling*/
