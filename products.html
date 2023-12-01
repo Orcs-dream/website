@@ -13,10 +13,17 @@
     .btn-danger:hover {
       filter: brightness(1.3);
     }
+
+    .card:active {
+      transform: scale(1.03);
+      filter: brightness(0.9);
+
+    }
   </style>
 </head>
 
 <body>
+  <!--Navigation Bar-->
   <!--Navigation Bar-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
@@ -49,14 +56,15 @@
     </div>
   </nav>
   <!--End of navigation bar-->
-  <h1 class="title">Discounted items</h1>
+  <!--End of navigation bar-->
+  <h1 class="title" id="sale">Discounted items</h1>
   <h5 style="text-align: center;">Unbeatable Prices: Unleash the Power of Discounts.</h5>
   <p style="text-align: center; margin: auto 4%;"></p>
   <!--First set of cards-->
   <div style="margin: 5%;">
     <div class="row gy-3">
       <div class="col-md-4">
-        <div class="card">
+        <div class="card" onclick="window.location.href = 'index.html'">
           <img src="data/chipmunk.jpg" class="card-img-top" alt="..." >
           <div class="card-body">
             <h5 class="card-title">Squirrel Finger Puppet Set</h5>
@@ -66,7 +74,7 @@
         </div>
       </div>
       <div class="col-md-4">
-        <div class="card">
+        <div class="card" onclick="window.location.href = 'https://www.google.com/'">
           <img src="data/squid.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Squidward Window Poster</h5>
@@ -76,7 +84,7 @@
         </div>
       </div>
       <div class="col-md-4">
-        <div class="card">
+        <div class="card" onclick="window.location.href = 'https://www.google.com/'">
           <img src="data/crab.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Crab Sandals</h5>
@@ -88,14 +96,14 @@
     </div>
   </div>
   <!--End of first set of cards-->
-  <h1 class="title">Featured Items</h1>
+  <h1 class="title" id="featured">Featured Items</h1>
   <h5 style="text-align: center;">Spotlight Specials: Explore Our Featured Items.</h5>
   <p style="text-align: center; margin: auto 4%;"></p>
   <!--First set of cards-->
   <div style="margin: 5%;">
     <div class="row gy-3">
       <div class="col-md-4">
-        <div class="card">
+        <div class="card" onclick="window.location.href = 'https://www.google.com/'">
           <img src="data/rockman2.webp" class="card-img-top" alt="..." >
           <div class="card-body">
             <h5 class="card-title">Rockman Fidget Toy <span class="btn btn-danger" style="font-size: large; margin-left: 5px;" >NEW!</span> </h5>
@@ -105,7 +113,7 @@
         </div>
       </div>
       <div class="col-md-4">
-        <div class="card">
+        <div class="card" onclick="window.location.href = 'https://www.google.com/'">
           <img src="data/snail.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Snail Soap Dispenser</h5>
@@ -115,7 +123,7 @@
         </div>
       </div>
       <div class="col-md-4">
-        <div class="card">
+        <div class="card" onclick="window.location.href = 'https://www.google.com/'">
           <img src="data/cat.jpg" class="card-img-top" alt="..." >
           <div class="card-body">
             <h5 class="card-title">Brave Cat Curtain</h5>
@@ -131,9 +139,9 @@
     <hr>
     <p>&COPY; 2023 Shopza, Inc</p>
     <div>
-      <img src="data/twitter-512.png" alt="twitter">
-      <img src="data/instagram.png" alt="twitter">
-      <img src="data/facebook.png" alt="facebook" style="margin-right: 8%;">
+      <img src="data/twitter-512.png" alt="twitter" onclick="window.location.href = 'https://www.twitter.com/'">
+      <img src="data/instagram.png" alt="instagram" onclick="window.location.href = 'https://www.instagram.com/'">
+      <img src="data/facebook.png" alt="facebook" onclick="window.location.href = 'https://www.facebook.com/'" style="margin-right: 8%;">
     </div>
   </footer>
 </body>

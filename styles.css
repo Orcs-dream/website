@@ -113,3 +113,6 @@ footer > div > img {
 }
 /*Footer Styling*/
 
+footer > div > img:hover {
+  cursor: pointer;
+}
